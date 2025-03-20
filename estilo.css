@@ -1,0 +1,115 @@
+body {
+    font-family: Ubuntu,Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul li {
+    float: left;
+    width: 250px;
+    font-size: 20px;
+    background-color: #000;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+ 
+ul li a {
+    color: #fff;
+    text-align: none;
+    display: block;
+}
+
+ul li a:hover{
+
+    background-color: #b8860b;
+
+}
+
+ul li ul li {
+
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+
+header{
+    background-image: url(imagem/foto-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.redes{
+    text-align: right;
+    filter: invert(100%);
+    margin: 100px 30px 0px 0px;
+
+}
+
+h1{
+    text-align: center;
+    color: #a05220;
+    background-color: #fff;
+    padding: 30px;
+    margin: 0px 200px 0px 200px;
+}
+
+h4{
+    color: #fff;
+    background-color: #a05220;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 200px 20px 200px;
+    padding: 20px;
+}
+
+h2{
+    color: #fff;
+    background-color: #a05220;
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+p{
+    background-color: #ffe4c4;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+.Informacao{
+    display: inline-block;
+width: 300px;
+text-align: center;
+margin: 20px;
+}
+
+.destaque{ 
+    text-align: center;
+    background-image: url(imagem/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centro{ 
+    text-align: center;
+}
+
+footer{
+
+    color: #fff;
+    background-color: #a05220;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
